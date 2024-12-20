@@ -10,8 +10,8 @@ with open(file_name, 'r') as file:
         byte_positions.append((x, y))
 
 print(byte_positions)
-grid_size = 71  # For the smaller example grid (7x7)
-# For the larger problem, use grid_size = 71
+grid_size = 71 
+
 
 # Initialize the grid
 grid = [['.' for _ in range(grid_size)] for _ in range(grid_size)]
